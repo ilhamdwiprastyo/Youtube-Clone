@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+      integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Youtube clone</title>
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="nav-main">
+      <ul class="nav--list">
+        <ul class="nav--left">
+          <li>
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/img/youtube-logo.png" alt="Youtube logo" /><sup style="position: relative; bottom:10px">ID</sup></a>
+          </li>
+        </ul>
+
+        <ul class="nav--search">
+          <li>
+            <input class="input-search" type="text" name="Search" placeholder="Search" />
+            <button><i class="fas fa-search"></i></button>
+          </li>
+        </ul>
+		
+		<ul class="nav">
+		  <li>
+			<a href="#"><i class="fas fa-microphone" style="position: relative; right: 150px;"></i></a>
+		  </li>
+		</ul>
+
+        <ul class="nav--right">
+          <li>
+            <a href="#"><i class="fas fa-video"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-th"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-comment"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-bell"></i></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/img/ilhm.jpg" alt="User Profile picture" /></a>
+          </li>
+        </ul>
+      </ul>
+    </nav>
+
+    <!-- VIDEO SECTION -->
+
+    <main>
+      <article>
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ekP8M30xzEQ" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <header>
+          <nav-main class="video-stats" style="width:1000px;">
+            <h1 class="video-title">
+              GIL4!! MUKBANG BAKSO PENTUNGAN LAVA SAOS SAMYANG NUCLEAR
+            </h1>
+            
+          </nav>
+
+          <nav class="nav-video">
+		    <p style="height:30px; position: relative; top: 10px;">8.898.887 x ditonton</p>
+            <a href="#" style="width:100px ; height:30px; position: relative; top: 15px; left:180px; font-size:12pt;"><i class="fas fa-thumbs-up" style="font-size:17pt;"></i>249 RB</a>
+            <a href="#" style="width:90px ; height:30px; position: relative; top: 15px; left:150px; font-size:12pt;"><i class="fas fa-thumbs-down" style="font-size:17pt;"></i>6.4 RB</a>
+            <a href="#" style="width:120px ; height:30px; position: relative; top: 15px; left:120px; font-size:12pt;"><i class="fas fa-share" style="font-size:17pt;"></i>BAGIKAN</a>
+            <a href="#" style="width:120px ; height:30px; position: relative; top: 15px; left:80px; font-size:12pt;"><i class="fas fa-list" style="font-size:17pt;"></></i>SIMPAN</a>
+            <a href="#"><i class="fas fa-ellipsis-h" style="font-size:17pt; position: relative; top: 15px;"></i></a>
+          </nav>
+        </header>
+
+        <section class="video-description">
+          <img src="assets/img/tanboy.jpg" alt="User profile picture" />
+
+          <div class="video-creator">
+            <h2>tanboy kun &#10003;</h2>
+
+            <p class="published">12,4 jt subscriber</p>
+
+            <p>
+              Oiya, buat yg pengen tau keseharian gua, dan pengen tau apa aja olahraga gua follow aja sosmed di bawah ini..
+            </p>
+
+            <a href="" class="showmore-btn"><br>LEBIH BANYAK</a>
+          </div>
+
+          <a class="subscribe-btn" style="text-align:center; width:120px; height:25px; position: relative; left: 100px; font-size:15pt">SUBSCRIBE</a>
+        </section>
+
+        <!-- VIDEO COMMENTS -->
+        <section class="video-comments" style="width:950px;">
+
+          <div class="comment__stats">
+            <p>16.748 Komentar</p>
+            <a href="#"><i class="fas fa-align-left"></i> URUTKAN</a>
+
+          </div>
+
+          <div class="comment__box">
+            <a href="" class="comment__display"><img src="assets/img/ilhm.jpg" alt="Profile picture"></a>
+            <input type="text" placeholder="Tulis komentar publik...">
+          </div>
+
+
+          <div class="comment">
+            <a class="comment__display" href="#"><img src="assets/img/anas.jpg" alt="Profile picture"></a>
+            <div class="comment__details">
+              <h4 class="comment__author">Anas 17 <span style="font-weight:normal; opacity:0.8;">6 bulan yang lalu</span></h4>
+              <p>YANG BELUM PERNAH NGERASAIN SAOS SAMYANG SINI NGUMPUL;/</p>
+              <div class="section__controls">
+                <a href="#"><i class="fas fa-thumbs-up"></i>10 rb</a>
+                <a href="#"><i class="fas fa-thumbs-down"></i></a>
+                <a href="#">BALAS</a>
+              </div>
+              <a href="#" style="color:blue;"> <i class="fas fa-caret-down" style="color:blue; font-size:15px;" ></i> &emsp;Lihat 467 balasan </a>
+            </div>
+          </div>
+		  
+          <div class="comment">
+            <a class="comment__display" href="#"><img src="assets/img/zarz.jpg" alt="Profile picture"></a>
+            <div class="comment__details">
+              <h4 class="comment__author">Zarzx Ganz <span style="font-weight:normal; opacity:0.8;">1 minggu yang lalu</span></h4>
+              <p>Yang nonton pas bulan puasa<br>
+			  <br>
+			  <br>
+			  <br>
+			  ...</p>
+			  
+			  <a href="" class="showmore-btn">Baca Selengkapnya</a>
+			  
+              <div class="section__controls">
+				<br>
+                <a href="#"><i class="fas fa-thumbs-up"></i>60</a>
+                <a href="#"><i class="fas fa-thumbs-down"></i></a>
+                <a href="#">BALAS</a>
+              </div>
+              <a href="#" style="color:blue;"> <i class="fas fa-caret-down" style="color:blue; font-size:15px;" ></i> &emsp;Lihat 4 balasan </a>
+            </div>
+          </div>
+		  
+          <div class="comment">
+            <a class="comment__display" href="#"><img src="assets/img/hayu.jpg" alt="Profile picture"></a>
+            <div class="comment__details">
+              <h4 class="comment__author">Hayu Niti <span style="font-weight:normal; opacity:0.8;">2 bulan yang lalu</span></h4>
+              <p>Bang, gua ga pernah denger lu bilang " gua kenyang "</p>
+              <div class="section__controls">
+                <a href="#"><i class="fas fa-thumbs-up"></i>552</a>
+                <a href="#"><i class="fas fa-thumbs-down"></i></a>
+                <a href="#">BALAS</a>
+              </div>
+              <a href="#" style="color:blue;"> <i class="fas fa-caret-down" style="color:blue; font-size:15px;" ></i> &emsp;Lihat 28 balasan </a>
+            </div>
+          </div>
+		  
+          <div class="comment">
+            <a class="comment__display" href="#"><img src="assets/img/the.jpg" alt="Profile picture"></a>
+            <div class="comment__details">
+              <h4 class="comment__author">THE WORK <span style="font-weight:normal; opacity:0.8;">3 bulan yang lalu</span></h4>
+              <p>2021 mana ni</p>
+              <div class="section__controls">
+                <a href="#"><i class="fas fa-thumbs-up"></i>279</a>
+                <a href="#"><i class="fas fa-thumbs-down"></i></a>
+                <a href="#">BALAS</a>
+              </div>
+              <a href="#" style="color:blue;"> <i class="fas fa-caret-down" style="color:blue; font-size:15px;" ></i> &emsp;Lihat 6 balasan </a>
+            </div>
+          </div>
+		  
+          <div class="comment">
+            <a class="comment__display" href="#"><img src="assets/img/rehan.jpg" alt="Profile picture"></a>
+            <div class="comment__details">
+              <h4 class="comment__author">Rehan Ferlish <span style="font-weight:normal; opacity:0.8;">6 hari yang lalu</span></h4>
+              <p>yang liat pas puasa like &#128591;&#128515;</p>
+              <div class="section__controls">
+                <a href="#"><i class="fas fa-thumbs-up"></i>10</a>
+                <a href="#"><i class="fas fa-thumbs-down"></i></a>
+                <a href="#">BALAS</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+      <!-- VIDEO RECOMMENDATIONS -->
+      <aside>
+        <div class="video__controls">
+          <p>Up Next</p>
+          <div class="autoplay">
+            <i class="fas fa-toggle-on"></i>
+            <p>AUTOPLAY</p>
+          </div>
+        </div>
+
+        <div class="video__container" style="width:500px;">
+          <div class="video-box">
+            <img src="assets/img/tanboy1.jpg" onmouseover="this.src='assets/img/thumbnail1.webp'" onmouseout="this.src='assets/img/tanboy1.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>CUMA 5 MENIT! MAKAN BAKSO LAVA SEBESAR KEPALA PALING BRUTAL DIDUNIA!! | </h3>
+			  <h3 style="color:blue;">#cimoryspicychallenge</h3>
+              <p>tanboy kun &#10003;</p>
+              <p>25 jt x ditonton &#8226; 10 bulan yang lalu</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <img src="assets/img/tanboy2.jpg" onmouseover="this.src='assets/img/thumbnail2.webp'" onmouseout="this.src='assets/img/tanboy2.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>BUSET! BUKA PUASA PAKE KFC SAOS SAMYANG + KEJU TARIK SUPER MELAR!!</h3>
+              <p>tanboy kun &#10003;</p>
+              <p>1,4 jt x ditonton &#8226; 19 jam yang lalu</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <img src="assets/img/tanboy3.jpg" onmouseover="this.src='assets/img/thumbnail3.webp'" onmouseout="this.src='assets/img/tanboy3.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>SAMBAL 2 LITER + BAKSO 35 KG + CURHAT KEHIDUPAN SAMA KEANU SAMPAI SPEECHLESS...</h3>
+              <p>MGDALENAF &#10003;</p>
+              <p>9,8 jt x ditonton &#8226; 6 bulan yang lalu</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <img src="assets/img/tanboy4.jpg" onmouseover="this.src='assets/img/thumbnail4.webp'" onmouseout="this.src='assets/img/tanboy4.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>ASMR MUKBANG | Makan dengan Meja Gongsam (Mie Kacang Hitam, Mi Api, Ayam Bumbu)</h3>
+              <p>설기양SULGI &#10003;</p>
+              <p>14 jt x ditonton &#8226; 1 minggu yang lalu</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <img src="assets/img/tanboy5.jpg" onmouseover="this.src='assets/img/thumbnail5.webp'" onmouseout="this.src='assets/img/tanboy5.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>ASMR MUKBANG (memasak) seafood pedas (lobster tail, abalone, octopus, udang, cumi-cumi, jamur enoki)</h3>
+              <p>보경 Bokyoung</p>
+              <p>18 jt x ditonton &#8226; 5 bulan yang lalu</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <img src="assets/img/tanboy6.jpg" onmouseover="this.src='assets/img/thumbnail6.webp'" onmouseout="this.src='assets/img/tanboy6.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>ES SERUT BUAH RAKSASA 1000 KG UNTUK BERBUKA PUASA SEKAMPUNG. AUTO PAHALA BOS.</h3>
+              <p>The Santoso &#10003;</p>
+              <p>5,4 jt x ditonton &#8226; 6 hari yang lalu</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <img src="assets/img/tanboy7.jpg" onmouseover="this.src='assets/img/thumbnail7.webp'" onmouseout="this.src='assets/img/tanboy7.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>HARAP SABAR INI UJIAN.. IVAN GUNAWAN ❌ RAFFI AHMAD🤣🤣‼️- Deddy Corbuzier Podcast</h3>
+              <p>Deddy Corbuzier &#10003;</p>
+              <p>3,6 jt x ditonton &#8226; 3 hari yang lalu</p>
+            </div>
+          </div>
+
+          <div class="video-box">
+            <img src="assets/img/tanboy8.jpg" onmouseover="this.src='assets/img/thumbnail8.webp'" onmouseout="this.src='assets/img/tanboy8.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>PEDESNYA GILA!! BUKA PUASA PAKE MIE ABC SELERA PEDAS 10 BUNGKUS!!</h3>
+              <p>tanboy kun &#10003;</p>
+              <p>2,2 jt x ditonton &#8226; 4 hari yang lalu</p>
+            </div>
+          </div>
+          <div class="video-box">
+            <img src="assets/img/tanboy9.jpg" onmouseover="this.src='assets/img/thumbnail9.webp'" onmouseout="this.src='assets/img/tanboy9.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>SAHUR TANBOY KUN MAKAN KFC BALADO PAKE PAQUI ASLI LEVEL 2 JUTA!!</h3>
+              <p>tanboy kun &#10003;</p>
+              <p>13 jt x ditonton &#8226; 11 bulan yang lalu</p>
+            </div>
+          </div>
+          <div class="video-box">
+            <img src="assets/img/tanboy10.jpg" onmouseover="this.src='assets/img/thumbnail10.webp'" onmouseout="this.src='assets/img/tanboy10.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>MAJALENGKA DI GOYANG...BERAKSI DI BAKSO TAK LAZHIM!!!</h3>
+              <p>Farida Nurhan &#10003;</p>
+              <p>2,8 jt x ditonton &#8226; 2 bulan yang lalu</p>
+            </div>
+          </div>
+          <div class="video-box">
+            <img src="assets/img/tanboy11.jpg" onmouseover="this.src='assets/img/thumbnail11.webp'" onmouseout="this.src='assets/img/tanboy11.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>Makan 10 Bungkus Samyang Nuclear Sama Jessica Jane</h3>
+              <p>Jess No Limit &#10003;</p>
+              <p>3,9 jt x ditonton &#8226; 5 hari yang lalu</p>
+            </div>
+          </div>
+          <div class="video-box">
+            <img src="assets/img/tanboy12.jpg" onmouseover="this.src='assets/img/thumbnail12.webp'" onmouseout="this.src='assets/img/tanboy12.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>SEBELUM PUASA, MAKAN 3 BAKSO CABE IJO SEGEDE KEPALA PAKAI NASI PADANG!!</h3>
+              <p>tanboy kun &#10003;</p>
+              <p>4,1 jt x ditonton &#8226; 1 minggu yang lalu</p>
+            </div>
+          </div>
+          <div class="video-box">
+            <img src="assets/img/tanboy13.jpg" onmouseover="this.src='assets/img/thumbnail13.webp'" onmouseout="this.src='assets/img/tanboy13.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>REKOR DUNIA! 50 KG PIZZA SOSIS RAKSASA BUAT MUKBANG SEKELUARGA.</h3>
+              <p>The Santoso &#10003;</p>
+              <p>6,1 jt x ditonton &#8226; 2 minggu yang lalu</p>
+            </div>
+          </div>
+          <div class="video-box">
+            <img src="assets/img/tanboy14.jpg" onmouseover="this.src='assets/img/thumbnail14.webp'" onmouseout="this.src='assets/img/tanboy14.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>TANBOY KUN SAHUR MAKAN 30 TELUR SEKALIGUS!!</h3>
+              <p>tanboy kun &#10003;</p>
+              <p>2,4 jt x ditonton &#8226; 3 hari yang lalu</p>
+            </div>
+          </div>
+          <div class="video-box">
+            <img src="assets/img/tanboy15.jpg" onmouseover="this.src='assets/img/thumbnail15.webp'" onmouseout="this.src='assets/img/tanboy15.jpg'" alt="Video thumbnail" class="video-box__thumbnail">
+            <div class="video-box__details" style="width:500px;">
+              <h3>뱀파이어 치킨 리얼사운드 먹방ASMR MUKBANG SPICY FRIED CHICKEN & SWEET CHICKEN スパイシーなチキン Gà ไก่ Ayam eating sounds</h3>
+              <p>교광TV &#10003;</p>
+              <p>43 jt x ditonton &#8226; 1 tahun yang lalu</p>
+            </div>
+          </div>
+
+        </div>
+      </aside>
+
+    </main>
+  </body>
+
+</html>
