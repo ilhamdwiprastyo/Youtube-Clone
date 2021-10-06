@@ -1,6 +1,6 @@
 # [youtube_clone](https://raw.githack.com/KaushikShivam/youtube_clone/feature-navigation/index.html)
 
-![Youtube Clone](screenshot.png)
+![Youtube Clone](contoh_tiruan.png)
 
 ## Table of content
 - [Description](#description)
